@@ -37,32 +37,29 @@ public class Pratica3 {
                            \t- a m\u00e9dia das idades das sete pessoas""");
         int idade[]=new int[7];
         float peso[]= new float[7];
-        System.out.println("Peso e idade pessoa 1: ");
+        System.out.println("Idade e peso pessoa 1: ");
         idade[0]=input.nextInt();
         peso[0]=input.nextFloat();
-        System.out.println("Peso e idade pessoa 2: ");
+        System.out.println("Idade e peso pessoa 2: ");
         idade[1]=input.nextInt();
         peso[1]=input.nextFloat();
-        System.out.println("Peso e idade pessoa 3: ");
+        System.out.println("Idade e peso pessoa 3: ");
         idade[2]=input.nextInt();
         peso[2]=input.nextFloat();
-        System.out.println("Peso e idade pessoa 4: ");
+        System.out.println("Idade e peso pessoa 4: ");
         idade[3]=input.nextInt();
         peso[3]=input.nextFloat();
-        System.out.println("Peso e idade pessoa 5: ");
+        System.out.println("Idade e peso pessoa 5: ");
         idade[4]=input.nextInt();
         peso[4]=input.nextFloat();
-        System.out.println("Peso e idade pessoa 6: ");
+        System.out.println("Idade e peso pessoa 6: ");
         idade[5]=input.nextInt();
         peso[5]=input.nextFloat();
-        System.out.println("Peso e idade pessoa 7: ");
+        System.out.println("Idade e peso pessoa 7: ");
         idade[6]=input.nextInt();
         peso[6]=input.nextFloat();
      
         System.out.println(Calculos.CalculaMedia(idade));
-        
-        
-        System.out.println(Calculos.VerificaPeso(peso));
         }
 
 }
