@@ -14,7 +14,7 @@ public class Pratica3 {
     public static void main(String args[]) {
         
         System.out.println("Faça um programa que leia a idade de 10 pessoas, calcule e mostre a média de idade das mesmas.");
-        int idade[]=new int[10];
+        int idade[]=new int [10];
         idade[0]=input.nextInt();
         idade[1]=input.nextInt();
         idade[2]=input.nextInt();
@@ -25,6 +25,8 @@ public class Pratica3 {
         idade[7]=input.nextInt();
         idade[8]=input.nextInt();
         idade[9]=input.nextInt();
+        
+        System.out.println(Calculos.CalculaMedia(idade));
     }
 
 }
