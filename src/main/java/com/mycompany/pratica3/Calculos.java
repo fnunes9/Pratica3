@@ -32,27 +32,14 @@ public class Calculos {
         // Tentei criar um vetor int vetor[]=new int[impar.lenght]; para testar e não funcionou. Acredito que o método em questão precisa ser do tipo Lista 
     }
 
-    /*
-    public static float VerificaPeso(float peso) {
-        float count = 0;
-        for (int i = 1; i <= peso; i++) {
-            if (peso >= 90) {
+    public static int PesoMaior90(float[] peso) {
+        int count = 0; // Inicialize o contador de pessoas com peso maior que 90
+
+        for (int i = 0; i < peso.length; i++) {
+            if (peso[i] > 90) {
                 count++;
             }
         }
         return count;
-    }*/
-    public static float PesoMaior90(float[] peso) {
-        int count = 0;
-        for (int i = 0; i < peso.length; i++) {
-            if (peso[i] >=90) {
-                return count++;
-                
-            }
-            //return count;
-        }
-        return 0;
-
     }
-
 }

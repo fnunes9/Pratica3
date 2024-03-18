@@ -40,44 +40,17 @@ public class Pratica3 {
                            Fa\u00e7a um programa que leia a idade e peso de sete pessoas. Calcule e mostre:
                            \t- a quantidade de pessoas com mais de 90 kg
                            \t- a m\u00e9dia das idades das sete pessoas""");
-        /*
-        int idade[]=new int[7];
-        float peso[]= new float[7];
-        System.out.println("Idade e peso pessoa 1: ");
-        idade[0]=input.nextInt();
-        peso[0]=input.nextFloat();
-        System.out.println("Idade e peso pessoa 2: ");
-        idade[1]=input.nextInt();
-        peso[1]=input.nextFloat();
-        System.out.println("Idade e peso pessoa 3: ");
-        idade[2]=input.nextInt();
-        peso[2]=input.nextFloat();
-        System.out.println("Idade e peso pessoa 4: ");
-        idade[3]=input.nextInt();
-        peso[3]=input.nextFloat();
-        System.out.println("Idade e peso pessoa 5: ");
-        idade[4]=input.nextInt();
-        peso[4]=input.nextFloat();
-        System.out.println("Idade e peso pessoa 6: ");
-        idade[5]=input.nextInt();
-        peso[5]=input.nextFloat();
-        System.out.println("Idade e peso pessoa 7: ");
-        idade[6]=input.nextInt();
-        peso[6]=input.nextFloat();
-     
-        System.out.println(Calculos.CalculaMedia(idade));
-        System.out.println(Calculos.PesoMaior90(0));
-         */
         int idade[] = new int[7];
         float peso[] = new float[7];
+
         for (int i = 0; i < idade.length; i++) {
             idade[i] = input.nextInt();
             peso[i] = input.nextFloat();
         }
         System.out.println(Arrays.toString(idade));
         System.out.println(Arrays.toString(peso));
-        // System.out.println("Média das idades: "+Calculos.CalculaMedia(idade));
-        System.out.println(Calculos.PesoMaior90(peso));
+        System.out.println("Média das idades: " + Calculos.CalculaMedia(idade));
+        System.out.println("Número de pessoas com peso maior que 90kg: " + Calculos.PesoMaior90(peso));
 
     }
 
