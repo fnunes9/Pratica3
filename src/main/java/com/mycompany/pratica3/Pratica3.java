@@ -29,12 +29,13 @@ public class Pratica3 {
         
         System.out.println("Faça um programa que leia um número e que imprima os números ímpares de 1 até o número informado");
         int impar=input.nextInt();
-        System.out.println(Calculos.MostraImpar(impar));
-        */
+        System.out.println(Calculos.MostraImpar(impar)); */
+        
         System.out.println("""
                            Fa\u00e7a um programa que leia a idade e peso de sete pessoas. Calcule e mostre:
                            \t- a quantidade de pessoas com mais de 90 kg
                            \t- a m\u00e9dia das idades das sete pessoas""");
+        /*
         int idade[]=new int[7];
         float peso[]= new float[7];
         System.out.println("Idade e peso pessoa 1: ");
@@ -60,6 +61,11 @@ public class Pratica3 {
         peso[6]=input.nextFloat();
      
         System.out.println(Calculos.CalculaMedia(idade));
+        System.out.println(Calculos.PesoMaior90(0));
+        */
+        int idade[]=new int[7];
+        for(int i=0;i<idade.length;i++){
+            idade[i]=input.nextInt();
+            }
         }
-
 }
