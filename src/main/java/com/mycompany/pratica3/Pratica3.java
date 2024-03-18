@@ -11,7 +11,7 @@ package com.mycompany.pratica3;
 import java.util.Scanner;
 public class Pratica3 {
     static Scanner input=new Scanner(System.in);
-    public static void main(String args[], float salvaPeso) {
+    public static void Main (String args[]) {
         /*
         System.out.println("Faça um programa que leia a idade de 10 pessoas, calcule e mostre a média de idade das mesmas.");
         int idade[]=new int [10];

@@ -29,8 +29,14 @@ public class Calculos {
         return impares; // Retoando a lista
         // Tentei criar um vetor int vetor[]=new int[impar.lenght]; para testar e não funcionou. Acredito que o método em questão precisa ser do tipo Lista 
     }
+
+    /**
+     *
+     * @param peso
+     * @return
+     */
     public static float VerificaPeso(float peso){
-        int count=0;
+        float count=0;
         for(int i=1;i<=peso;i++){
             if(peso>=90){
                 count++;
