@@ -2,16 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.pratica3;
+package com.mycompany.Pratica3;
 
 /**
  *
  * @author Fernanda
  */
+import com.mycompany.pratica3.Calculos;
+import java.util.Arrays;
 import java.util.Scanner;
 public class Pratica3 {
     static Scanner input=new Scanner(System.in);
-    public static void Main (String args[]) {
+    public static void main (String []args) {
         /*
         System.out.println("Faça um programa que leia a idade de 10 pessoas, calcule e mostre a média de idade das mesmas.");
         int idade[]=new int [10];
@@ -64,8 +66,19 @@ public class Pratica3 {
         System.out.println(Calculos.PesoMaior90(0));
         */
         int idade[]=new int[7];
+        float peso[]=new float[7];
         for(int i=0;i<idade.length;i++){
             idade[i]=input.nextInt();
+            peso[i]=input.nextFloat();
             }
+            System.out.println(Arrays.toString(idade));
+            System.out.println(Arrays.toString(peso));
+           // System.out.println("Média das idades: "+Calculos.CalculaMedia(idade));
+           System.out.println(Calculos.PesoMaior90(peso));
+           
         }
+
 }
+
+
+

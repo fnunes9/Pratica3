@@ -43,14 +43,16 @@ public class Calculos {
         return count;
     }
      */
-    public static float PesoMaior90(float peso) {
-        float count = 0;
-        for (int i = 1; i <= peso; i++) {
-            if (peso >= 90) {
-                count++;
+
+    public static float PesoMaior90(float[] peso) {
+        int count=0;
+        for (int i=0; i<=peso.length; i++) {
+            if (peso[i] >= 90) {
+                return peso[i];
             }
+            return 800;
         }
-        return count;
+        return 145;
 
     }
 }
