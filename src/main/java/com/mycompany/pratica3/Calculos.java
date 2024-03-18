@@ -33,13 +33,21 @@ public class Calculos {
     }
 
     public static int PesoMaior90(float[] peso) {
-        int count = 0; // Inicialize o contador de pessoas com peso maior que 90
+        int count = 0; 
 
         for (int i = 0; i < peso.length; i++) {
-            if (peso[i] > 90) {
+            if (peso[i] >= 90) {
                 count++;
             }
         }
         return count;
+    }
+
+    public static float CalculaMedia2(int idade2[]) {
+        float soma = 0;
+        for (int i = 0; i < idade2.length; i++) {
+            soma += idade2[i];
+        }
+        return soma / idade2.length;
     }
 }
